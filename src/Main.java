@@ -35,7 +35,7 @@ public class Main {
 			System.out.println(fam.getParents("Bob"));
 			
 			System.out.println(fam.getChildren("Hilda"));
-			//System.out.println(fam.printAllNames());
+			
 			
 			
 	}

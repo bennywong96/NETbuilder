@@ -25,16 +25,6 @@ public class Family {
 		}
 	}
 	
-//	public List<String> printAllNames() {
-//		List<String> strings = new ArrayList<>(people.size());
-//		for (Object object : people) {
-//		    strings.add(Objects.toString(object, null));
-//		}
-//		Arrays.toString(strings.toArray());
-//		
-//		return strings;
-//	}
-	
 	public boolean male(String name) {
 		aPerson(name);
 		return allPeople(name).setGender("Male");	
@@ -75,7 +65,6 @@ public class Family {
 		return false;
 	}
 		
-	
 	
 	public boolean setParent(String childName, String parentName) {
 		if (allPeople(childName) != null && allPeople(parentName).getGender() == "Male") {
